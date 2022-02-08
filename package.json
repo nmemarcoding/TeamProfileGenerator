@@ -1,19 +1,25 @@
 {
-  "name": "teamprofilegenerator",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nmemarcoding/TeamProfileGenerator.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nmemarcoding/TeamProfileGenerator/issues"
-  },
-  "homepage": "https://github.com/nmemarcoding/TeamProfileGenerator#readme"
+    "name": "teamprofilegenerator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nmemarcoding/TeamProfileGenerator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nmemarcoding/TeamProfileGenerator/issues"
+    },
+    "homepage": "https://github.com/nmemarcoding/TeamProfileGenerator#readme",
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "inquirer": "^8.2.0",
+        "jest": "^27.4.7",
+        "nquirer": "^0.1.8"
+    }
 }
