@@ -20,4 +20,20 @@ describe("Manager", () => {
         expect("manager").toBe(manager.getStatus());
 
     });
+
+    test("get manager name", () => {
+        const manager = new Manager('alex', 'alex@yahoo.com', 1, 2)
+        expect('alex').toBe(manager.getName());
+
+    });
+    test("get manager email", () => {
+        const manager = new Manager('alex', 'alex@yahoo.com', 1, 2)
+        expect("alex@yahoo.com").toBe(manager.getEmail());
+
+    });
+    test("get manager id", () => {
+        const manager = new Manager('alex', 'alex@yahoo.com', 1, 2)
+        expect(1).toBe(manager.getId());
+
+    });
 });

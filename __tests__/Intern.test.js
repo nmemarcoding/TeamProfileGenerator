@@ -20,4 +20,20 @@ describe("Intern", () => {
         expect("intern").toBe(intern.getStatus());
 
     });
+
+    test("get intern name", () => {
+        const intern = new Intern('alex', 'alex@yahoo.com', 1, "2Univercity");
+        expect('alex').toBe(intern.getName());
+
+    });
+    test("get intern email", () => {
+        const intern = new Intern('alex', 'alex@yahoo.com', 1, "2Univercity");
+        expect("alex@yahoo.com").toBe(intern.getEmail());
+
+    });
+    test("get intern id", () => {
+        const intern = new Intern('alex', 'alex@yahoo.com', 1, "2Univercity");
+        expect(1).toBe(intern.getId());
+
+    });
 });
