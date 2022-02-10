@@ -11,7 +11,7 @@
 ## Test 
 * npm test
 ## Usage
-* The next step is to use Node index to launch the generator, and then follow the prompts to finish the section of your team profile.Link to video showing how the application is used: [link](https://www.google.com)    
+* The next step is to use Node index to launch the generator, and then follow the prompts to finish the section of your team profile.Link to video showing how the application is used: [link](https://drive.google.com/file/d/126qcspVsV7nvH3NsSYu3X4i3EMl3obdj/view?usp=sharing)    
 ## Credits
 * In this application, we utilize node.js and the inquirer package.
 ## License
